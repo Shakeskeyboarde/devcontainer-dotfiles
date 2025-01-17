@@ -5,6 +5,8 @@ source $ZSH/oh-my-zsh.sh
 DISABLE_AUTO_UPDATE=true
 DISABLE_UPDATE_PROMPT=true
 
+. "$HOME/.asdf/asdf.sh" || true
+
 export PNPM_HOME="$HOME/.local/share/pnpm"
 PATH=$PNPM_HOME:$PATH
 
