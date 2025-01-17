@@ -5,6 +5,7 @@ source $ZSH/oh-my-zsh.sh
 DISABLE_AUTO_UPDATE=true
 DISABLE_UPDATE_PROMPT=true
 
+export ASDF_NODEJS_AUTO_ENABLE_COREPACK=1
 . "$HOME/.asdf/asdf.sh" || true
 asdf install || true
 
